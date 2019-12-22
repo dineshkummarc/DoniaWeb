@@ -111,16 +111,28 @@
     <!-- sweet alerts -->
     <link href="<?=BASE?>assets/plugins/sweet-alert2/sweetalert2.min.css" rel="stylesheet">
 
+    <!-- Plugins css-->
+    <link href="<?=BASE?>assets/plugins/bootstrap-tagsinput/css/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="<?=BASE?>assets/plugins/bootstrap-touchspin/css/jquery.bootstrap-touchspin.min.css" rel="stylesheet" />
+    <link href="<?=BASE?>assets/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet">
+    <link href="<?=BASE?>assets/plugins/select2/css/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?=BASE?>assets/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" rel="stylesheet">
+    <link href="<?=BASE?>assets/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css" rel="stylesheet">
+    <link href="<?=BASE?>assets/plugins/switchery/switchery.min.css" rel="stylesheet">
+    
     <!-- App css -->
     <link href="<?=BASE?>assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/icons.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/metismenu.min.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/app.css" rel="stylesheet" type="text/css" />
+
     <!-- your custom css -->
     <link href="<?=BASE?>assets/css/style.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/style1.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/layout1.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/colors.min.css" rel="stylesheet" type="text/css" />
+    <script src="assets/js/modernizr.min.js"></script>
+
 
     <?php load_css();?> 
 
@@ -399,6 +411,19 @@
 <script src="<?=BASE?>assets/js/metisMenu.min.js"></script>
 <script src="<?=BASE?>assets/js/waves.js"></script>
 <script src="<?=BASE?>assets/js/jquery.slimscroll.js"></script>
+
+<script src="<?=BASE?>assets/plugins/switchery/switchery.min.js"></script>
+<script src="<?=BASE?>assets/plugins/moment/moment.js"></script>
+<script src="<?=BASE?>assets/plugins/timepicker/bootstrap-timepicker.js"></script>
+<script src="<?=BASE?>assets/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js"></script>
+<script src="<?=BASE?>assets/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="<?=BASE?>assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.min.js"></script>
+<script src="<?=BASE?>assets/plugins/bootstrap-touchspin/js/jquery.bootstrap-touchspin.min.js"></script>
+<script src="<?=BASE?>assets/plugins/select2/js/select2.min.js"></script>
+<script src="<?=BASE?>assets/plugins/bootstrap-inputmask/bootstrap-inputmask.min.js"></script>
+
+<!-- Init Js file -->
+<script src="<?=BASE?>assets/pages/jquery.form-advanced.init.js"></script>
 
 <!-- Counter js  -->
 <script src="<?=BASE?>assets/plugins/waypoints/jquery.waypoints.min.js"></script>

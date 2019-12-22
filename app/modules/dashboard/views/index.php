@@ -36,7 +36,6 @@ $module_name = "dashboard";
                             </ul>
                         </div>
                     </div>
-
                     <ul class="box-list am-scroll">
                         <?php 
                             foreach ($report_lists as $key => $row) {

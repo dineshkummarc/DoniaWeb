@@ -2125,6 +2125,8 @@
 
 .app-mod .am-sidebar .box-list{
 	height: calc(100% - 65px);
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .app-mod .am-sidebar .box-list .item{
@@ -2137,7 +2139,7 @@
     position: absolute;
     border-radius: 6px;
     overflow: hidden;
-    left: 42px;
+    left: 60px;
 }
 
 .app-mod .am-sidebar .box-list .item .box-img img{
@@ -2166,7 +2168,7 @@
 }
 
 .app-mod .am-sidebar .box-list .item .box-info{
-    margin-left: 85px;
+    margin-left: 120px;
     height: 40px;
 }
 
