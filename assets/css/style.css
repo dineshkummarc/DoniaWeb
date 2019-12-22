@@ -1983,7 +1983,7 @@
 * APP MOD
 */
 .app-mod{
-    padding-top: 15px!important;
+    padding-top: 0px!important;
     height: 100%;
     position: relative;
 }
@@ -2081,7 +2081,7 @@
 * APP MOD ACCOUNTS 
 */
 .app-mod .am-sidebar{
-    width: 300px;
+    width: 100%;
     background: #fafdff;
     height: 100%;
     border-right: 1px solid #f0f0f0;
@@ -2102,7 +2102,7 @@
 }
 
 .app-mod .am-sidebar .box-search{
-    padding: 15px 10px;
+    padding: 10px;
     border-bottom: 1px solid #efefef;
 }
 
