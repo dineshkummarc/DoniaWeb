@@ -867,7 +867,7 @@ if(!function_exists('block_report')){
 
 						if(is_array($controller_files))
 						{	
-							$data .= '<div id="'.$folder_name.'" class="tab-pane fade in ' .(($count == 0)?"active":""). '">';
+							$data .= '<div id="'.$folder_name.'" class="tab-pane ' .(($count == 0)?"active":""). '">';
 							$count++;
 
 							foreach ($controller_files as $controller_file) 

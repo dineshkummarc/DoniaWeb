@@ -78,7 +78,7 @@ $module_name = "dashboard";
                         </div>
                         <?php if(!empty($report_lists)){?>
                         <div class="" style="max-width: 1170px; margin: auto;">
-                            <div class="card" style="padding-top: 50px;">
+                            <div class="card" style="padding: 0px 20px 0px 20px; margin-top: 8px;">
                                 <div class="card-block p0">
                                     <div class="tab-content p15 report-content">
                                         <?php
@@ -150,9 +150,7 @@ $module_name = "dashboard";
 
     padding: 10px;
 
-    position: fixed;
-
-    width: calc(100% - 410px);
+    width: 100%;
 
     background: #fff;
 
@@ -160,7 +158,7 @@ $module_name = "dashboard";
 
     padding: 0 15px;
 
-    height: 65px;
+    height: 55px;
 
     line-height: 64px;
 
@@ -182,7 +180,7 @@ $module_name = "dashboard";
 
     color: #424242;
 
-    margin-top: 30px;
+    margin-top: 0px;
 
 }
 

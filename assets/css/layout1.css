@@ -469,3 +469,10 @@ li {
     box-shadow: 0 0 0 2px #22b9ff;
   }
 }
+
+.box-analytic{
+  padding: 15px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
