@@ -1993,7 +1993,7 @@
 }
 
 .app-mod .am-sidebar{
-    width: 300px;
+    width: 100%;
     background: #fff;
     height: 100%;
     border-right: 1px solid #f5f5f5;

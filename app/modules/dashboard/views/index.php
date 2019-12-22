@@ -21,27 +21,19 @@ $module_name = "dashboard";
         <div class="col-12"> </div>
     </div>
     <div class="row">
-        <div class="col-4">
-            <div class="card">
+        <div class="col-lg-4">
+            <div class="card app-mod">
                 <div class="am-sidebar active">
-                    <!-- <ul class="list-inline menu-left mb-0">
-                        <li class="float-left">
-                            <button class="button-menu-mobile open-left waves-light waves-effect">
-                                <i class="mdi mdi-menu"></i>
-                            </button>
-                        </li>
-                        <li class="app-search">
-                            <form role="search" class="">
-                                <input type="text" placeholder="Search..." class="form-control">
-                                <a href=""><i class="fa fa-search"></i></a>
-                            </form>
-                        </li>
-                    </ul> -->
+                    
                     <?php if(!empty($report_lists)){?>
                     <div class="box-search">
                         <div class="input-group">
-                        <input type="text" class="form-control am-search" placeholder="<?=lang("search")?>" aria-describedby="basic-addon2">
-                        <span class="input-group-addon" id="basic-addon2"><i class="ft-search"></i></span>
+                            <ul class="list-inline menu-left mb-0">
+                                <li class="app-search">
+                                    <input type="text" placeholder="<?=lang("search")?>" class="form-control1 am-search" aria-describedby="basic-addon2">
+                                    <i class="fa fa-search"></i>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
@@ -74,7 +66,7 @@ $module_name = "dashboard";
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8">
             <div class="card">
                 <div class="am-wrapper">
                     <div class="am-content col-md-12 am-scroll p0">
