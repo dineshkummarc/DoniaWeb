@@ -1,0 +1,24 @@
+{
+	"menu" : {
+		"icon"  : "fab fa-tumblr",
+		"color" : "#34526f",
+		"link"  : "title link",
+		"title" : "Tumblr"
+	},
+
+	"submenu" : {
+		"tumblr/post" : "Post"
+	},
+
+	"account" : {
+		"add_account" : "tumblr/block_list_account"
+	},
+
+	"js" : {
+		"tumblr" : "tumblr/assets/js/tumblr.js"
+	},
+
+	"css" : {
+		"tumblr" : "tumblr/assets/css/tumblr.css"
+	}
+}

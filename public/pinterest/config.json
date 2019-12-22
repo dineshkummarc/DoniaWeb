@@ -1,0 +1,23 @@
+{
+	"menu" : {
+		"icon"  : "fab fa-pinterest",
+		"color" : "#cd2029",
+		"link"  : "title link",
+		"title" : "Pinterest"
+	},
+
+	"submenu" : {
+	},
+
+	"account" : {
+		"add_account" : "pinterest/block_list_account"
+	},
+
+	"js" : {
+		"pinterest" : "pinterest/assets/js/pinterest.js"
+	},
+
+	"css" : {
+		"pinterest" : "pinterest/assets/css/pinterest.css"
+	}
+}

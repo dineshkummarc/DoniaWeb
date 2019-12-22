@@ -1,0 +1,32 @@
+.proxy-manager .head-title{
+	position: relative;
+}
+
+.proxy-manager .head-title .btn-group{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.proxy-manager .tab-type{
+
+}
+
+.proxy-manager .tab-type li{
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 0px;
+}
+
+.proxy-manager .tab-type li.active a{
+    background: #2196F3;
+    color: #fff;
+}
+
+.proxy-manager .tab-type li a{
+    border-bottom: 1px solid #f5f5f5!important;
+    border-top: 1px solid #f5f5f5!important;
+    border-left: 1px solid #f5f5f5!important;
+    border-radius: 0px!important;
+    margin: 0!important;
+}

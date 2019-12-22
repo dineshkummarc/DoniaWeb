@@ -1,0 +1,20 @@
+{
+	"menu" : {
+		"icon"  : "fab fa-telegram",
+		"color" : "#0088cc",
+		"link"  : "title link",
+		"title" : "Telegram"
+	},
+
+	"account" : {
+		"add_account" : "telegram/block_list_account"
+	},
+
+	"js" : {
+		"telegram" : "telegram/assets/js/telegram.js"
+	},
+
+	"css" : {
+		"telegram" : "telegram/assets/css/telegram.css"
+	}
+}

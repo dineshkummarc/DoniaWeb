@@ -1,0 +1,24 @@
+<?php
+$lang['Proxy manager'] = 'Proxy manager';
+$lang['proxy_manager'] = 'Proxy manager';
+$lang['Add new'] = 'Add new';
+$lang['Assign proxy'] = 'Assign proxy';
+$lang['Import proxy'] = 'Import proxy';
+$lang['Address'] = 'Address';
+$lang['Location'] = 'Location';
+$lang['Enter your proxy'] = 'Enter your proxy';
+$lang['Packages'] = 'Packages';
+$lang['Limit'] = 'Limit';
+$lang['Assigned For'] = 'Assigned For';
+$lang['Set proxy'] = 'Set proxy';
+$lang['%s account'] = '%s account';
+$lang['Select proxy'] = 'Select proxy';
+$lang['Check proxy'] = 'Check proxy';
+$lang['Proxy format invaild'] = 'Proxy format invaild';
+$lang['Proxy is live'] = 'Proxy is live';
+$lang['Address is required'] = 'Address is required';
+$lang['This proxy already exists'] = 'This proxy already exists';
+$lang['Proxy is not valid or active'] = 'Proxy is not valid or active';
+$lang['Select a proxy'] = 'Select a proxy';
+$lang['unsuccessfully'] = 'Unsuccessfully';
+$lang['Select at least one package'] = 'Select at least one package';

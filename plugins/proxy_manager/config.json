@@ -1,0 +1,14 @@
+{
+	"title" : "Proxy Manager",
+	"color" : "#0abb87",
+	"icon" : "fas fa-server",
+	"css" : "assets/css/proxy_manager.css",
+	"js" : "assets/js/proxy_manager.js",
+	"submenu" : {
+		"proxy_manager" : {
+			"name" : "Proxy Manager",
+			"need_auth" : 1,
+			"for_admin" : 1
+		}
+	}
+}

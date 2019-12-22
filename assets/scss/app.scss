@@ -1,0 +1,71 @@
+/*
+Template Name: Velonic - Responsive Bootstrap 4 Admin Dashboard
+Author: CoderThemes
+Email: support@coderthemes.com
+Version: 4.0.0
+Date: Jan 2015
+Last Update: May 2018
+File: Main Css
+*/
+
+/*********************
+01.Menu
+02.Common
+03.Helper
+04.Extra Helper
+05.Bootstrap Reset
+06.Waves
+07.Buttons
+08.Checkbox-radios
+09.Tabs
+10.Modals
+11.Alerts
+12.Sweatalert 2
+13.Portlets
+14.Widgets
+15.Nestable
+16.Calender
+17.Form Elements
+18.Tables
+19.Charts
+20.Email
+21.Maps
+22.Profile
+23.Timeline
+24.Print
+25.Contact
+26.Account pages
+27.Responsive
+**********************/
+
+@import "variables";
+@import "menu";
+@import "common";
+@import "helper";
+@import "extra-helper";
+@import "bootstrap-reset";
+@import "waves";
+@import "buttons";
+@import "checkbox-radios";
+@import "tabs";
+@import "modal";
+@import "alerts";
+@import "sweetalert2";
+@import "portlets";
+@import "widgets";
+@import "nestable-list";
+@import "calendar";
+@import "form-elements";
+@import "tables";
+@import "charts";
+@import "email";
+@import "maps";
+@import "profile";
+@import "timeline";
+@import "print";
+@import "contact";
+@import "account-pages";
+@import "responsive";
+
+
+

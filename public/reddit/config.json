@@ -1,0 +1,24 @@
+{
+	"menu" : {
+		"icon"  : "fab fa-reddit",
+		"color" : "#4267b2",
+		"link"  : "title link",
+		"title" : "Reddit"
+	},
+
+	"submenu" : {
+		"reddit/post" : "Post"
+	},
+
+	"account" : {
+		"add_account" : "reddit/block_list_account"
+	},
+
+	"js" : {
+		"reddit" : "reddit/assets/js/reddit.js"
+	},
+
+	"css" : {
+		"reddit" : "reddit/assets/css/reddit.css"
+	}
+}

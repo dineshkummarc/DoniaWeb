@@ -1,0 +1,25 @@
+installation
+
+-Edit app/config.php
+
+
+-Code:
+
+<?php
+define('DB_HOST', 'localhost');
+define('DB_USER', '');
+define('DB_PASS', '');
+define('DB_NAME', '');
+define('TIMEZONE', '');
+define('ENCRYPTION_KEY', '8de0682e4b3633865bc7ccbcdc29defb');
+
+-After importing DoniaWeB.sql, it's all
+
+
+-Done
+
+-User and Password
+Login: admin@admin.com
+password: DoniaWeB
+__________________
+By doniaweb.com
