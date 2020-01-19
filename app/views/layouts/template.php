@@ -280,7 +280,7 @@
 
         "assets/js/tether.min.js",
 
-        "assets/plugins/bootstrap/js/bootstrap.min.js",
+        // "assets/plugins/bootstrap/js/bootstrap.min.js",
 
         "assets/plugins/bootstrap-notify/bootstrap-notify.min.js",
 

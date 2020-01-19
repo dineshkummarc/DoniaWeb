@@ -1987,7 +1987,6 @@
 */
 .app-mod{
     padding-top: 0px!important;
-    height: 100%;
     position: relative;
 }
 
@@ -2127,7 +2126,7 @@
 }
 
 .app-mod .am-sidebar .box-list{
-	height: calc(100% - 65px);
+	/* height: calc(100% - 65px); */
 	padding-left: 20px;
 	padding-right: 20px;
 }

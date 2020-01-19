@@ -2,6 +2,34 @@
 
 <div class="schedules">
 	<div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <h4 class="page-title float-left">Schedules</h4>
+
+                <ol class="breadcrumb float-right">
+                    <li class="breadcrumb-item"><a href="#">Schedules</a></li>
+                </ol>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+	<div class="row">
+	<div class="col-12">
+		<div class="page-title-box">
+			<h4 class="page-title float-left">Flot Chart</h4>
+
+			<ol class="breadcrumb float-right">
+				<li class="breadcrumb-item"><a href="#">Velonic</a></li>
+				<li class="breadcrumb-item"><a href="#">Charts</a></li>
+				<li class="breadcrumb-item active">Flot Chart</li>
+			</ol>
+
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+	<div class="row">
 		<a href="javascript:void(0);" class="sc-toggle-open"><i class="fa fa-filter" aria-hidden="true"></i></a>
 		<div class="sc-options">
 			<div class="card box-sc-option box-sc-option-type">

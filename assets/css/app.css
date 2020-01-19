@@ -923,7 +923,7 @@ header {
 }
 
 .m-t-30 {
-  margin-top: 30px !important;
+  margin-top: -30px !important;
 }
 
 .m-t-40 {
@@ -4768,24 +4768,30 @@ table.dataTable thead th {
   border-radius: 5px;
 }
 
-.profile-tabs {
+.dashboard-tabs {
   background-color: #f3f3f3;
   padding-bottom: 1px;
   border: none;
 }
 
-.profile-tabs .nav-item > .nav-link {
+.dashboard-tabs .nav-item > .nav-link {
   border: none;
   margin-right: 0px;
   padding: 15px 30px;
   font-size: 16px;
 }
 
-.profile-tabs .nav-item > .nav-link i {
+.dashboard-tabs .nav-item {
+  border: 1px solid #dddddd;
+  margin: 0 2px -1px;
+  width: 140px;
+}
+
+.dashboard-tabs .nav-item > .nav-link i {
   margin-right: 10px;
 }
 
-.profile-user-img img {
+.dashboard-user-img img {
   position: absolute;
   top: -56px;
   border: 3px solid #ffffff;
