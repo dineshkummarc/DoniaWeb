@@ -13,7 +13,7 @@ class vk extends MX_Controller {
 		$this->table = VK_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("vk_accounts");
-		$this->module_icon = "fa fa-vk";
+		$this->module_icon = "fab fa-vk";
 		$this->load->model($this->module.'_model', 'model');
 
 	}

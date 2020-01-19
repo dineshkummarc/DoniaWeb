@@ -15,7 +15,7 @@ class post extends MX_Controller {
 		$this->tb_posts = INSTAGRAM_POSTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("instagram_accounts");
-		$this->module_icon = "fa fa-instagram";
+		$this->module_icon = "fab fa-instagram";
 		$this->load->model(get_class($this).'_model', 'model');
 	}
 
@@ -369,7 +369,7 @@ class post extends MX_Controller {
 			"controller" => "instagram",
 			"color" => "#d62976",
 			"name"  => lang("auto_post"),
-			"icon"  => "fa fa-instagram"
+			"icon"  => "fab fa-instagram"
 		);
 
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_posts, $type);

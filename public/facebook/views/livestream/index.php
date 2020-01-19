@@ -134,7 +134,7 @@ if(!empty($post)){
                         </a>
                         <?php }?>
                         <a href="javascript:void(0);" class="item show-pop-yt-video" data-placement="auto">
-                            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
                         </a>
 
                         <div class="webui-popover-content">
@@ -142,7 +142,7 @@ if(!empty($post)){
                                 <div class="input-group" style="max-width: 250px;">
                                     <input type="text" class="form-control" name="youtube_link" placeholder="<?=lang("Enter youtube video url")?>">
                                     <span class="input-group-btn">
-                                        <a href="<?=cn("file_manager/get_youtube_video_info")?>" data-id="" class="btnActionGetYoutubeInfo btn btn-primary"><i class="ft-plus"></i></a>
+                                        <a href="<?=cn("file_manager/get_youtube_video_info")?>" data-id="" class="btnActionGetYoutubeInfo btn btn-primary"><i class="fas fa-plus"></i></a>
                                     </span>
                                 </div>
                             </div>

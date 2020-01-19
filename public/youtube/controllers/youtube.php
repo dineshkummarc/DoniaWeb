@@ -13,7 +13,7 @@ class youtube extends MX_Controller {
 		$this->table = YOUTUBE_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("youtube_accounts");
-		$this->module_icon = "fa fa-youtube";
+		$this->module_icon = "fab fa-youtube";
 		$this->load->model($this->module.'_model', 'model');
 
 	}

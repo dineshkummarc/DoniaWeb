@@ -14,7 +14,7 @@ class post extends MX_Controller {
 		$this->tb_posts = VK_POSTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("vk_accounts");
-		$this->module_icon = "fa fa-vk";
+		$this->module_icon = "fab fa-vk";
 		$this->load->model(get_class($this).'_model', 'model');
 	}
 
@@ -340,7 +340,7 @@ class post extends MX_Controller {
 			"controller" => "vk",
 			"color" => "#4b729c",
 			"name"  => lang("auto_post"),
-			"icon"  => "fa fa-vk"
+			"icon"  => "fab fa-vk"
 		);
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_posts, $type);
 	}

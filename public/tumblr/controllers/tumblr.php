@@ -13,7 +13,7 @@ class tumblr extends MX_Controller {
 		$this->table = TUMBLR_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("tumblr_accounts");
-		$this->module_icon = "fa fa-tumblr";
+		$this->module_icon = "fab fa-tumblr";
 		$this->load->model($this->module.'_model', 'model');
 
 	}

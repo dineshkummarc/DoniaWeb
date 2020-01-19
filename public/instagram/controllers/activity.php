@@ -10,7 +10,7 @@ class activity extends MX_Controller {
 		$this->tb_activities_log = INSTAGRAM_ACTIVITIES_LOG;
 		$this->module = get_class($this);
 		$this->module_name = lang("instagram_accounts");
-		$this->module_icon = "fa fa-instagram";
+		$this->module_icon = "fab fa-instagram";
 		$this->load->model($this->module.'_model', 'model');
 	}
 

@@ -10,7 +10,7 @@ class analytics extends MX_Controller {
 		$this->tb_analytics_stats = "instagram_analytics_stats";
 		$this->module = get_class($this);
 		$this->module_name = lang("instagram_accounts");
-		$this->module_icon = "fa fa-instagram";
+		$this->module_icon = "fab fa-instagram";
 		$this->load->model($this->module.'_model', 'model');
 		$this->accounts = $this->model->fetch("*", INSTAGRAM_ACCOUNTS, "uid = '".session("uid")."'");
 	}

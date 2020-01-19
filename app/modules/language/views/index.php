@@ -138,7 +138,7 @@ $module_name = "language";
 
                     <a href="<?=cn("language/add")?>" class="btn btn-default">
 
-                        <i class="ft-plus"></i> <span> <?=lang("add_new")?></span>
+                        <i class="fas fa-plus"></i> <span> <?=lang("add_new")?></span>
 
                     </a>
 

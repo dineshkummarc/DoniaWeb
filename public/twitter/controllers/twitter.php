@@ -13,7 +13,7 @@ class twitter extends MX_Controller {
 		$this->table = TWITTER_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("twitter_accounts");
-		$this->module_icon = "fa fa-twitter";
+		$this->module_icon = "fab fa-twitter";
 		$this->load->model($this->module.'_model', 'model');
 	}
 

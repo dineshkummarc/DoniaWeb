@@ -15,7 +15,7 @@ class pinterest extends MX_Controller {
 		$this->table  = PINTEREST_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("pinterest_accounts");
-		$this->module_icon = "fa fa-pinterest";
+		$this->module_icon = "fab fa-pinterest";
 		$this->pinterest_app_id = PINTEREST_CLIENT_ID;
 		$this->pinterest_app_secret = PINTEREST_CLIENT_SERECT;
 

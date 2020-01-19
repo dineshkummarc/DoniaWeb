@@ -78,7 +78,7 @@
 
             <a href="<?=cn("account_manager")?>">
 
-                <i class="ft-plus-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('account_manager')?>"></i>
+                <i class="fas fa-plus-circle" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('account_manager')?>"></i>
 
                 <span class="name"> <?=lang('account_manager')?></span>
 

@@ -341,7 +341,7 @@ class post extends MX_Controller {
 			"controller" => "reddit",
 			"color" => "#4267b2",
 			"name"  => lang("auto_post"),
-			"icon"  => "fa fa-reddit"
+			"icon"  => "fab fa-reddit"
 		);
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_posts, $type);
 	}

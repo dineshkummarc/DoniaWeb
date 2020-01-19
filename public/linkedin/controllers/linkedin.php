@@ -13,7 +13,7 @@ class linkedin extends MX_Controller {
 		$this->table = LINKEDIN_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("linkedin_accounts");
-		$this->module_icon = "fa fa-linkedin";
+		$this->module_icon = "fab fa-linkedin-in";
 		$this->load->model($this->module.'_model', 'model');
 
 	}

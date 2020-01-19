@@ -380,7 +380,7 @@
 
                                 <a href="<?=get_option("social_page_twitter", "")?>">
 
-                                    <i class="fa fa-twitter"></i>
+                                    <i class="fab fa-twitter"></i>
 
                                 </a>
 
@@ -394,7 +394,7 @@
 
                                 <a href="<?=get_option("social_page_instagram", "")?>">
 
-                                    <i class="fa fa-instagram"></i>
+                                    <i class="fab fa-instagram"></i>
 
                                 </a>
 
@@ -408,7 +408,7 @@
 
                                 <a href="<?=get_option("social_page_pinterest", "")?>">
 
-                                    <i class="fa fa-pinterest"></i>
+                                    <i class="fab fa-pinterest"></i>
 
                                 </a>
 

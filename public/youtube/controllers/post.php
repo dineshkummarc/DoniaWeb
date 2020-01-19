@@ -275,7 +275,7 @@ class post extends MX_Controller {
 			"controller" => "youtube",
 			"color" => "#c4302b",
 			"name"  => lang("post"),
-			"icon"  => "fa fa-youtube-play",
+			"icon"  => "fab fa-youtube",
 			"module" => "post"
 		);
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_posts, $type);

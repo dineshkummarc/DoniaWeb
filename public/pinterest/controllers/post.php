@@ -14,7 +14,7 @@ class post extends MX_Controller {
 		$this->tb_posts  = PINTEREST_POSTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("pinterest_accounts");
-		$this->module_icon = "fa fa-pinterest";
+		$this->module_icon = "fab fa-pinterest";
 		$this->load->model(get_class($this).'_model', 'model');
 	}
 

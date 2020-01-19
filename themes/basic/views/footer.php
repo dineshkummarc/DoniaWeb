@@ -30,21 +30,21 @@
                         <?php if(get_option("social_page_twitter", "") != ""){?>
                         <li class="list-inline-item">
                             <a href="<?=get_option("social_page_twitter", "")?>">
-                                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
                             </a>
                         </li>
                         <?php }?>
                         <?php if(get_option("social_page_instagram", "") != ""){?>
                         <li class="list-inline-item">
                             <a href="<?=get_option("social_page_instagram", "")?>">
-                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
                             </a>
                         </li>
                         <?php }?>
                         <?php if(get_option("social_page_pinterest", "") != ""){?>
                         <li class="list-inline-item">
                             <a href="<?=get_option("social_page_pinterest", "")?>">
-                                <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                                <i class="fab fa-pinterest" aria-hidden="true"></i>
                             </a>
                         </li>
                         <?php }?>

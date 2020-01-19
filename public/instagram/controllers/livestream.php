@@ -254,7 +254,7 @@ class livestream extends MX_Controller {
 			"controller" => "instagram",
 			"color" => "#d62976",
 			"name"  => lang("Livestream"),
-			"icon"  => "fa fa-instagram",
+			"icon"  => "fab fa-instagram",
 			"module" => "livestream"
 		);
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_livestreams, $type);

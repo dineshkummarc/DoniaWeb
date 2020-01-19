@@ -14,7 +14,7 @@ class post extends MX_Controller {
 		$this->tb_posts = LINKEDIN_POSTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("linkedin_accounts");
-		$this->module_icon = "fa fa-linkedin";
+		$this->module_icon = "fab fa-linkedin-in";
 		$this->load->model(get_class($this).'_model', 'model');
 	}
 

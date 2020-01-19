@@ -4,7 +4,7 @@
             <div class="card-title">
                 <i class="<?=$module_icon?>" aria-hidden="true"></i> <?=$module_name?>
                 <div class="pull-right card-option">
-                    <a href="<?=cn($module."/popup_add_account")?>" class="ajaxModal" data-toggle="tooltip" data-placement="left" title="" data-original-title="<?=lang("add_account")?>"><i class="ft-plus"></i></a>
+                    <a href="<?=cn($module."/popup_add_account")?>" class="ajaxModal" data-toggle="tooltip" data-placement="left" title="" data-original-title="<?=lang("add_account")?>"><i class="fas fa-plus"></i></a>
                 </div>
             </div>
         </div>

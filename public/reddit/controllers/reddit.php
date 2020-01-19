@@ -13,7 +13,7 @@ class reddit extends MX_Controller {
 		$this->table = REDDIT_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("reddit_accounts");
-		$this->module_icon = "fa fa-reddit";
+		$this->module_icon = "fab fa-reddit";
 		$this->load->model($this->module.'_model', 'model');
 
 	}
