@@ -130,19 +130,19 @@ function Main(){
 
         /*Schedules*/
         if($(".schedules").length > 0){
-            _he = $(window).height();
-            $(".schedules").height(_he - 56);
-            $(".sc-calendar").height(_he - 118);
-            if($(".sc-calendar").length > 0){
-                $('.sc-options').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
-                $('.sc-calendar').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
-            }
+            // _he = $(window).height();
+            // $(".schedules").height(_he - 56);
+            // $(".sc-calendar").height(_he - 118);
+            // if($(".sc-calendar").length > 0){
+            //     $('.sc-options').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
+            //     $('.sc-calendar').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
+            // }
 
-            $(window).resize(function(){
-                _he = $(window).height();
-                $(".schedules").height(_he - 56);
-                $(".sc-calendar").height(_he - 118);
-            });
+            // $(window).resize(function(){
+            //     _he = $(window).height();
+            //     $(".schedules").height(_he - 56);
+            //     $(".sc-calendar").height(_he - 118);
+            // });
 
             $(document).on("click", ".sc-toggle-open", function(){
                 _options = $(".schedules .sc-options");

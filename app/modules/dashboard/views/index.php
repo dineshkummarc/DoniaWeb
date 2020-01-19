@@ -30,11 +30,11 @@ $module_name = "dashboard";
             </div>
         </div>
     </div>
-    <div class="row m-t-30">
+    <div class="row m-t--30">
         <div class="col-lg-4">
             <div class="card app-mod">
                 <div class="am-sidebar active">
-                    
+
                     <?php if(!empty($report_lists)){?>
                     <div class="box-search">
                         <div class="input-group">

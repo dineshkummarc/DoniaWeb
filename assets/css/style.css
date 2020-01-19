@@ -1196,7 +1196,8 @@
 	position: absolute;
 	overflow: hidden;
 	height: 100%;
-	border:1px solid #d1d1d1;
+	/* border:1px solid #d1d1d1; */
+	/* background-color: #edf0f0; */
 	background-color: #edf0f0;
 }
 
@@ -1204,12 +1205,15 @@
 	margin: 20px;
 	margin-bottom: 30px;
 	padding: 10px 5px;
+	background-color: #f4f4f4;
 }
 
 .schedules .sc-options .box-sc-option .box-border{
 	border: 1px solid #e6dbdb;
 	border-radius: 6px;
-	background: #f8f9f9;
+	background:none;
+	border: 0;
+	padding: 0;
 }
 
 .schedules .sc-options .box-sc-option .box-border .box-title{
@@ -1242,6 +1246,10 @@
 
 .schedules .sc-options .box-sc-option ul > li{
 	margin-bottom: 7px;
+	border-bottom: #dedede;
+    border: 1px solid #e4e4e4;
+    padding-left: 20px;
+    background-color: #f1f1f1;
 }
 
 .schedules .sc-options .box-sc-option-type ul > li.active:nth-child(1) > label{
@@ -1262,13 +1270,82 @@
 	color: #FFF;
 }
 
+.schedules .sc-options1 .box-sc-option{
+	margin: 0 20px 0 20px;
+	padding: 10px 5px;
+	height: 60px;
+	display: inline-flex;
+}
+
+.schedules .sc-options1 .box-sc-option .box-border{
+	border: 1px solid #e6dbdb;
+	border-radius: 6px;
+	background: #f8f9f9;
+}
+
+.schedules .sc-options1 .box-sc-option .box-border .box-title{
+    border-bottom: 1px solid #078e11;
+    padding: 8px 12px;
+    font-weight: 600;
+    color: #52565e;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.schedules .sc-options1 .box-sc-option .box-border .box-content{
+	padding: 12px;
+}
+
+.schedules .sc-options1 .box-sc-option .box-border .box-content .label{
+	font-weight: 600;
+	color: #52565e;
+	font-size: 13px;
+	padding: 0 0 5px;
+}
+
+.schedules .sc-options1 .box-sc-option .title{
+    color: #52565e;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+	margin: auto 10px auto 0px;
+}
+
+.schedules .sc-options1 .box-sc-option ul > li{
+	margin-bottom: -4px;
+	float: left;
+	width: 140px;
+	margin-right: 2px;
+}
+
+.schedules .sc-options1 .box-sc-option-type ul > li.active:nth-child(1) > label{
+	border-color: #1E88E5!important;
+	background-color: #36a3f7!important;
+	color: #FFF;
+}
+
+.schedules .sc-options1 .box-sc-option-type ul > li.active:nth-child(2) > label{
+	border-color: #10C888!important;
+    background-color: #16D39A!important;
+	color: #FFF;
+}
+
+.schedules .sc-options1 .box-sc-option-type ul > li.active:nth-child(3) > label{
+    border-color: #FF6275!important;
+    background-color: #FF7588!important;
+	color: #FFF;
+}
+
+
 .schedules .sc-calendar{
     margin-left: 300px;
     height: calc(100%);
-    overflow: scroll;
+    /* overflow: scroll; */
     padding: 30px 5%;
 	max-height: 100%; /*calc(100% - 56px)!important;*/
 	width: 100%;
+	background-color: #f4f4f4;
+	width: calc(100% - 320px);
 }
 
 .schedules .sc-head{
