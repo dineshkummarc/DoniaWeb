@@ -18,13 +18,23 @@ $module_name = "dashboard";
 
 <div class="wrap-content <?=$module_name?>-app">
     <div class="row">
-        <div class="col-12"> </div>
+        <div class="col-12">
+            <div class="page-title-box">
+                <h4 class="page-title float-left">Dashboard</h4>
+
+                <ol class="breadcrumb float-right">
+                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                </ol>
+
+                <div class="clearfix"></div>
+            </div>
+        </div>
     </div>
-    <div class="row">
+    <div class="row m-t--30">
         <div class="col-lg-4">
             <div class="card app-mod">
                 <div class="am-sidebar active">
-                    
+
                     <?php if(!empty($report_lists)){?>
                     <div class="box-search">
                         <div class="input-group">
@@ -71,7 +81,7 @@ $module_name = "dashboard";
                     <div class="am-content col-md-12 am-scroll p0">
                         <div class="head-title">
                             <div class="name">
-                                <i class="ft-bar-chart-2" aria-hidden="true"></i> <?=lang("Report")?>
+                                <i class="far fa-chart-bar" aria-hidden="true"></i> <?=lang("Report")?>
                             </div>
                             <div class="clearfix"></div>
                         </div>

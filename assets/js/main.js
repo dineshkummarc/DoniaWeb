@@ -130,19 +130,19 @@ function Main(){
 
         /*Schedules*/
         if($(".schedules").length > 0){
-            _he = $(window).height();
-            $(".schedules").height(_he - 56);
-            $(".sc-calendar").height(_he - 118);
-            if($(".sc-calendar").length > 0){
-                $('.sc-options').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
-                $('.sc-calendar').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
-            }
+            // _he = $(window).height();
+            // $(".schedules").height(_he - 56);
+            // $(".sc-calendar").height(_he - 118);
+            // if($(".sc-calendar").length > 0){
+            //     $('.sc-options').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
+            //     $('.sc-calendar').niceScroll({cursorcolor:"#ddd", cursorwidth: "10px"});
+            // }
 
-            $(window).resize(function(){
-                _he = $(window).height();
-                $(".schedules").height(_he - 56);
-                $(".sc-calendar").height(_he - 118);
-            });
+            // $(window).resize(function(){
+            //     _he = $(window).height();
+            //     $(".schedules").height(_he - 56);
+            //     $(".sc-calendar").height(_he - 118);
+            // });
 
             $(document).on("click", ".sc-toggle-open", function(){
                 _options = $(".schedules .sc-options");
@@ -222,34 +222,34 @@ function Main(){
 
     this.optionAppMod = function(){
         if($('.app-mod').length > 0){
-            $('.am-select-account').vtdropdown();
+            // $('.am-select-account').vtdropdown();
 
-            _h = $(window).height() - 56;
-            $('.am-sidebar').height(_h);
-            $('.app-mod').height(_h);
+            // _h = $(window).height() - 56;
+            // $('.am-sidebar').height(_h);
+            // $('.app-mod').height(_h);
 
-            $(window).resize(function(){
-                _h = $(window).height() - 56;
-                $('.am-sidebar').height(_h);
-                $('.app-mod').height(_h);
-            });
+            // $(window).resize(function(){
+            //     _h = $(window).height() - 56;
+            //     $('.am-sidebar').height(_h);
+            //     $('.app-mod').height(_h);
+            // });
 
-            if($(window).width() < 768){
-                setTimeout(function(){
-                    $('.am-scroll').getNiceScroll().remove();
-                    $('.am-scroll').attr("style", "");
-                }, 200);
+            // if($(window).width() < 768){
+            //     setTimeout(function(){
+            //         $('.am-scroll').getNiceScroll().remove();
+            //         $('.am-scroll').attr("style", "");
+            //     }, 200);
 
-                setInterval(function(){
-                    $('.am-scroll').attr("style", "");
-                }, 2000);
-            }else{
-                $('.am-scroll').niceScroll({cursorcolor:"#ddd", cursorwidth:"10px", horizrailenabled:false});
+            //     setInterval(function(){
+            //         $('.am-scroll').attr("style", "");
+            //     }, 2000);
+            // }else{
+            //     $('.am-scroll').niceScroll({cursorcolor:"#ddd", cursorwidth:"10px", horizrailenabled:false});
 
-                setInterval(function(){
-                    $('.am-scroll').getNiceScroll().resize();
-                }, 2000);
-            }
+            //     setInterval(function(){
+            //         $('.am-scroll').getNiceScroll().resize();
+            //     }, 2000);
+            // }
         }
 
         $(document).on("click", ".am-mobile-menu a", function(){
