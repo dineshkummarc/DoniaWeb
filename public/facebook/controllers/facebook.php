@@ -14,7 +14,7 @@ class facebook extends MX_Controller {
 		$this->table = FACEBOOK_ACCOUNTS;
 		$this->module = get_class($this);
 		$this->module_name = lang("facebook_accounts");
-		$this->module_icon = "fa fa-facebook-square";
+		$this->module_icon = "fab fa-facebook-f";
 		$this->load->model($this->module.'_model', 'model');
 	}
 

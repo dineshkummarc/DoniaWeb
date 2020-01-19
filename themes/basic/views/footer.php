@@ -16,7 +16,7 @@
                         <?php if(get_option("social_page_facebook", "") != ""){?>
                         <li class="list-inline-item">
                             <a href="<?=get_option("social_page_facebook", "")?>">
-                                <i class="fa fa-facebook-square"></i>
+                                <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <?php }?>

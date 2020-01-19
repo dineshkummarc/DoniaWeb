@@ -293,7 +293,7 @@ class livestream extends MX_Controller {
 			"controller" => "facebook",
 			"color" => "#4267b2",
 			"name"  => lang("Livestream"),
-			"icon"  => "fa fa-facebook-square",
+			"icon"  => "fab fa-facebook-f",
 			"module" => "livestream"
 		);
 		echo Modules::run("schedules/block_schedules_xml", $template, $this->tb_livestreams, $type);

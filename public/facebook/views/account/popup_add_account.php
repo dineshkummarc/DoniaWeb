@@ -21,7 +21,7 @@ if(
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="modal-title"><i class="fa fa-facebook-square"></i> <?=lang('add_facebook_account')?> </div>
+                <div class="modal-title"><i class="fab fa-facebook-f"></i> <?=lang('add_facebook_account')?> </div>
             </div>
             <div class="modal-body">
                 <div class="row">
