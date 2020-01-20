@@ -120,7 +120,7 @@ $account = 0;
 
                 <div class="btn-group pull-right" role="group">
 
-                  <a href="javascript:void(0);" class="btn btn-default ExportPDF"><i class="ft-upload"></i> <?=lang("Export PDF")?></a>
+                  <a href="javascript:void(0);" class="btn btn-default ExportPDF"><i class="fas fa-upload"></i> <?=lang("Export PDF")?></a>
 
                 </div>
 

@@ -10,7 +10,7 @@
 
             <h3 class="head-title"><?=lang("schedules")?> 
 
-                <a href="<?=cn(segment(1)."/".segment(2)."/ajax_delete_schedules")?>" data-redirect="<?=current_url()?>" title="<?=lang("delete_all")?>" data-id="-1" class="text-danger pull-right actionItem" style="margin-left: 5px;" data-confirm="<?=lang("are_you_sure_want_delete_it")?>"><i class="ft-trash-2"></i></a>
+                <a href="<?=cn(segment(1)."/".segment(2)."/ajax_delete_schedules")?>" data-redirect="<?=current_url()?>" title="<?=lang("delete_all")?>" data-id="-1" class="text-danger pull-right actionItem" style="margin-left: 5px;" data-confirm="<?=lang("are_you_sure_want_delete_it")?>"><i class="far fa-trash-alt"></i></a>
 
                 <a href="<?=cn(segment(1)."/".segment(2))?>" class="pull-right text-primary" title="<?=lang("add_new")?>"><i class="fas fa-plus-circle"></i></a>
 

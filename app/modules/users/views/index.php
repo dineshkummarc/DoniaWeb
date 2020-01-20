@@ -62,7 +62,7 @@
 
                 <a href="<?=cn("users/export")?>">
 
-                    <div class="icon"><i class="ft-upload"></i></div>
+                    <div class="icon"><i class="fas fa-upload"></i></div>
 
                     <div class="content content-1">
 
