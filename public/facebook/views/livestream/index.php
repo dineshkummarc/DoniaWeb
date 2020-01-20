@@ -47,7 +47,7 @@ if(!empty($post)){
         <div class="box-search">
             <div class="input-group">
               <input type="text" class="form-control am-search" placeholder="<?=lang("search")?>" aria-describedby="basic-addon2">
-              <span class="input-group-addon" id="basic-addon2"><i class="ft-search"></i></span>
+              <span class="input-group-addon" id="basic-addon2"><i class="fa fa-search"></i></span>
             </div>
         </div>
         <ul class="box-list am-scroll">

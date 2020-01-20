@@ -2554,7 +2554,8 @@
     margin-left: 275px;
     height: calc(100%);
     background: #fff;
-    max-height: calc(100%)!important;
+	max-height: calc(100%)!important;
+	width: 100%;
 }
 
 .pn-mode .pn-content .pn-box-content{
@@ -2569,7 +2570,8 @@
 }
 
 .pn-mode .pn-content .card-footer{
-    padding: 15px 30px;
+	padding: 15px 30px;
+	text-align: center;
 }
 
 .pn-mode .pn-toggle-open{
@@ -2840,7 +2842,8 @@
 	}
 
 	.pn-mode .pn-content{
-	    margin-left: 0px;
+		margin-left: 0px;
+		width: 100%;
 	}
 	/*End Panel Model*/
 

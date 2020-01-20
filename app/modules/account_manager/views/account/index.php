@@ -2,9 +2,9 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box">
-                <h4 class="page-title float-left">Dashboard</h4>
+                <h4 class="page-title float-left">Account Manager</h4>
                 <ol class="breadcrumb float-right">
-                    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                    <li class="breadcrumb-item"><a href="#">Account Manager</a></li>
                 </ol>
                 <div class="clearfix"></div>
             </div>

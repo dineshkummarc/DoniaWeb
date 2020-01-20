@@ -1,8 +1,19 @@
-<div class="row pn-mode pn-mode-settings">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title float-left">Group Manager</h4>
+            <ol class="breadcrumb float-right">
+                <li class="breadcrumb-item"><a href="#">Group Manager</a></li>
+            </ol>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<div class="row pn-mode pn-mode-settings m-t--30">
 
     <a href="javascript:void(0);" class="pn-toggle-open"><i class="ft-target" aria-hidden="true"></i></a>
 
-    <div class="pn-sidebar pn-scroll">
+    <div class="pn-sidebar pn-scroll card">
 
         <div class="pn-box-sidebar">
 
@@ -18,7 +29,7 @@
 
                   <input type="text" class="form-control pn-search" placeholder="<?=lang("Search")?>" aria-describedby="basic-addon2">
 
-                  <span class="input-group-addon" id="basic-addon2"><i class="ft-search"></i></span>
+                  <span class="input-group-addon" id="basic-addon2"><i class="fa fa-search"></i></span>
 
                 </div>
 
@@ -82,7 +93,7 @@
 
     </div>
 
-    <div class="pn-content pn-scroll">
+    <div class="pn-content pn-scroll card">
 
         <div class="pn-ajax-content">
 

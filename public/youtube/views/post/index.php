@@ -94,7 +94,7 @@ if(!empty($post)){
 
                 <input type="text" class="form-control am-search" placeholder="<?=lang("search")?>" aria-describedby="basic-addon2">
 
-                <span class="input-group-addon" id="basic-addon2"><i class="ft-search"></i></span>
+                <span class="input-group-addon" id="basic-addon2"><i class="fa fa-search"></i></span>
 
                 <div class="input-group-btn">
 
