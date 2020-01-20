@@ -2,9 +2,9 @@
     <div class="row">
         <div class="col-12">
             <div class="page-title-box">
-                <h4 class="page-title float-left">Account Manager</h4>
+                <h4 class="page-title float-left"><?=lang("account_manager")?></h4>
                 <ol class="breadcrumb float-right">
-                    <li class="breadcrumb-item"><a href="#">Account Manager</a></li>
+                    <li class="breadcrumb-item"><a href="#"><?=lang("account_manager")?></a></li>
                 </ol>
                 <div class="clearfix"></div>
             </div>

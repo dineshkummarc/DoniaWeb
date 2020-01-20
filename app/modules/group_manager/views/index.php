@@ -1,9 +1,9 @@
 <div class="row">
     <div class="col-12">
         <div class="page-title-box">
-            <h4 class="page-title float-left">Group Manager</h4>
+            <h4 class="page-title float-left"><?=lang("group_manager")?></h4>
             <ol class="breadcrumb float-right">
-                <li class="breadcrumb-item"><a href="#">Group Manager</a></li>
+                <li class="breadcrumb-item"><a href="#"><?=lang("group_manager")?></a></li>
             </ol>
             <div class="clearfix"></div>
         </div>

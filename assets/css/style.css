@@ -2897,3 +2897,7 @@
 .fade.in {
     opacity: 1;
 }
+
+.card-header {
+	padding: 1.5rem 1.25rem 0.75rem;
+}
