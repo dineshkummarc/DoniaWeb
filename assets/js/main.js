@@ -377,13 +377,13 @@ function Main(){
 
     this.optionPanelMode = function(){
         if($('.pn-mode').length > 0){
-            _h = $(window).height() - 56;
+            _h = $(window).height() - 56 + 20;
             $('.pn-sidebar').height(_h);
             $('.pn-content').height(_h);
             $('.pn-mode').height(_h);
 
             $(window).resize(function(){
-                _h = $(window).height() - 56;
+                _h = $(window).height() - 56 + 20;
                 $('.pn-sidebar').height(_h);
                 $('.pn-content').height(_h);
                 $('.pn-mode').height(_h);
