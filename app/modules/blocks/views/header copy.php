@@ -78,7 +78,7 @@
 
         <li>
 
-            <a class="menu-settings toggleWidget" href="#"><i class="ft-bell"></i> <span class="badgeCont"></span></a>
+            <a class="menu-settings toggleWidget" href="#"><i class="far fa-bell"></i> <span class="badgeCont"></span></a>
 
         </li>
 

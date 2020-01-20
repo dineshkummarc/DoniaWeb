@@ -1078,7 +1078,7 @@ function Main(){
 
             iziToast.show({
         		theme: 'dark',
-        		icon: 'ft-bell',
+        		icon: 'far fa-bell',
     		    title: '',
                 position: 'bottomCenter',
     		    message: _message,

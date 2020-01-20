@@ -28,11 +28,11 @@ if(
                     <div class="col-sm-12">
                         <ul class="nav nav-tabs">
                             <?php if(get_option('facebook_login_offical', 1) == 1){?>
-                            <li class="<?=$active_tab==1?"active":""?>"><a data-toggle="tab" href="#fb_login"> <?=lang('Facebook Login')?></a></li>
+                            <li class="nav-item <?=$active_tab==1?"active":""?>"><a class="nav-link" data-toggle="tab" href="#fb_login"> <?=lang('Facebook Login')?></a></li>
                             <?php }?>
-                            <li class="hide <?=$active_tab==2?"active":""?>"><a data-toggle="tab" href="#cookie"> <?=lang('Facebook cookie')?></a></li>
+                            <li class="nav-item hide <?=$active_tab==2?"active":""?>"><a class="nav-link" data-toggle="tab" href="#cookie"> <?=lang('Facebook cookie')?></a></li>
                             <?php if(get_option('facebook_login_username_password', 1) == 1){?>
-                            <li class="<?=$active_tab==2?"active":""?>"><a data-toggle="tab" href="#home"> <?=lang('facebook_for_iphone/android')?></a></li>
+                            <li class="nav-item <?=$active_tab==2?"active":""?>"><a class="nav-link" data-toggle="tab" href="#home"> <?=lang('facebook_for_iphone/android')?></a></li>
                             <?php }?>
                         </ul>
 

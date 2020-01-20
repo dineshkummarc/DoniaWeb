@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="row">
         <a href="javascript:void(0);" class="sc-toggle-open"><i class="fa fa-filter" aria-hidden="true"></i></a>
         <div class="sc-options">

@@ -2064,7 +2064,8 @@
 */
 .app-mod{
     padding-top: 0px!important;
-    position: relative;
+	position: relative;
+	min-height: 770px;
 }
 
 .am-mobile-menu{
@@ -2773,7 +2774,7 @@
 	.app-mod .am-sidebar{
 	    width: 100%;
 	    position: absolute;
-	    height: calc(100% - 56px)!important;
+	    height: calc(100%)!important;
 	}
 
 	.app-mod .am-wrapper .am-content{
@@ -2884,4 +2885,12 @@
 	.schedules .sc-calendar{
 		margin-left: 0px;
 	}
+}
+
+.hide{
+	display: none !important;
+}
+
+.fade.in {
+    opacity: 1;
 }

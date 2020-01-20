@@ -131,11 +131,10 @@
     <link href="<?=BASE?>assets/css/style1.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/layout1.css" rel="stylesheet" type="text/css" />
     <link href="<?=BASE?>assets/css/colors.min.css" rel="stylesheet" type="text/css" />
-    <script src="assets/js/modernizr.min.js"></script>
-
 
     <?php load_css();?> 
 
+    <script type="text/javascript" src="<?=BASE?>assets/js/modernizr.min.js<?=$version?>"></script>
     <script type="text/javascript" src="<?=BASE?>assets/plugins/jquery/jquery.min.js<?=$version?>"></script>
 
     <script type="text/javascript">
@@ -280,7 +279,7 @@
 
         "assets/js/tether.min.js",
 
-        // "assets/plugins/bootstrap/js/bootstrap.min.js",
+        "assets/plugins/bootstrap/js/bootstrap.min.js",
 
         "assets/plugins/bootstrap-notify/bootstrap-notify.min.js",
 
