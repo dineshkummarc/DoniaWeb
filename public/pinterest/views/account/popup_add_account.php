@@ -52,19 +52,19 @@ if(get_option('pinterest_button', 1)==1){
 
                             <?php if(get_option('pinterest_button', 1)==1){?>
 
-                            <li class="<?=$active_tab==0?"active":""?>"><a data-toggle="tab" href="#pinterest_login_1"> <?=lang('Button')?></a></li>
+                            <li class="nav-item <?=$active_tab==0?"active":""?>"><a class="nav-link" data-toggle="tab" href="#pinterest_login_1"> <?=lang('Button')?></a></li>
 
                             <?php }?>
 
                             <?php if(get_option('pinterest_your_app', 0)==1){?>
 
-                            <li class="<?=$active_tab==1?"active":""?>"><a data-toggle="tab" href="#pinterest_login_2"> <?=lang('Your app')?></a></li>
+                            <li class="nav-item <?=$active_tab==1?"active":""?>"><a class="nav-link" data-toggle="tab" href="#pinterest_login_2"> <?=lang('Your app')?></a></li>
 
                             <?php }?>
 
                             <?php if(get_option('pinterest_login_username_password', 1)==1){?>
 
-                            <li class="<?=$active_tab==2?"active":""?>"><a data-toggle="tab" href="#pinterest_login_3"> <?=lang('Username & Password')?></a></li>
+                            <li class="nav-item <?=$active_tab==2?"active":""?>"><a class="nav-link" data-toggle="tab" href="#pinterest_login_3"> <?=lang('Username & Password')?></a></li>
 
                             <?php }?>
 

@@ -1820,6 +1820,7 @@ header {
   padding: 7px 14px;
   outline: none !important;
   font-family: "Roboto", sans-serif;
+  border: 1px solid #dcdcdc;
 }
 
 .btn-md {
@@ -2518,7 +2519,7 @@ header {
    Tabs
 ============= */
 .tab-content {
-  padding: 20px 0 0 0;
+  padding: 20px 20px 0 20px;
 }
 
 .nav-tabs > li > a, .nav-pills > li > a {
