@@ -69,9 +69,11 @@
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    border-right: 15px solid #FFF;
-    border-bottom: 15px solid #FFF;
-    background-position: center;
+    /* border-right: 15px solid #FFF;
+    border-bottom: 15px solid #FFF; */
+	background-position: center;
+	margin: 4px;
+	box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.2);
 }
 
 .file-manager-content .item .transparent{
@@ -130,20 +132,22 @@
     left: 50%;
     margin-left: -15px;
     margin-top: -15px;
-	border: 1px solid #36a3f7;
+	border: 2px solid #2aab56;
+	box-shadow: 1px 1px 6px 1px;
 }
 
 .file-manager-content .item .pure-checkbox{
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	/* bottom: 10px; */
+	left: 2px;
+	top: 2px;
 	z-index: 1;
 }
 
 .file-manager-content .item .dropdown{
 	position: absolute;
-	right: 10px;
-	top: 9px;
+	right: 2px;
+	top: 2px;
 	z-index: 1;
 }
 
@@ -168,9 +172,10 @@
     width: 20px;
     height: 20px;
     margin-top: -9px;
-    border: 2px solid #fff;
+    border: 1px solid #d0ded5;
     text-align: center;
-    transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.4);
 }
 
 .file-manager-content .item .dropdown .dropdown-menu li a{
@@ -186,9 +191,10 @@
     background: #ffffff;
     height: 24px;
     width: 24px;
-    border: 1px solid #fff;
+    border: 1px solid #d6d6d6;
     border-radius: 6px;
-    font-size: 12px;
+	font-size: 12px;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.6);
 }
 
 .file-manager-content .item .dropdown .btn i{
