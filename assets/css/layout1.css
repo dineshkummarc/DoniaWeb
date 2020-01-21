@@ -476,3 +476,43 @@ li {
   margin-bottom: 15px;
   border-radius: 4px;
 }
+
+.m0{ margin: 0!important; }
+.m15{ margin: 15px!important; }
+.mb0{ margin-bottom: 0!important; }
+.ml0{ margin-left: 0!important; }
+.mr0{ margin-right: 0!important; }
+.mt0{ margin-top: 0!important; }
+.mt15{ margin-top: 15px!important; }
+.mb15{ margin-bottom: 15px!important; }
+.mr15{ margin-right: 15px!important; }
+.ml15{ margin-left: 15px!important; }
+
+.p0{ padding: 0!important; }
+.pt0{ padding-top: 0!important; }
+.pb0{ padding-bottom: 0!important; }
+.pl0{ padding-left: 0!important; }
+.pr0{ padding-right: 0!important; }
+.p15{ padding: 15px!important; }
+.pl15{ padding-left: 15px!important; }
+.pr15{ padding-right: 15px!important; }
+.pt15{ padding-top: 15px!important; }
+.pb15{ padding-bottom: 15px!important; }
+.b0{ border: none!important; }
+.br0{ border-right: none!important; }
+.bl0{ border-left: none!important; }
+.bt0{ border-top: none!important; }
+.bb0{ border-bottom: none!important; }
+.bra0{ border-radius: 0px!important; }
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before{
+  left: 6px;
+  top: 16px;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child {
+    padding-left: 33px!important;
+}
+table.dataTable.dtr-inline.collapsed th:first-child{
+    min-width: 65px;
+}

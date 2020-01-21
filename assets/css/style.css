@@ -84,7 +84,7 @@
 }
 
 .file-manager-content .item.active .transparent{
-	border: 6px solid #b8e1ff;
+	border: 6px solid #c2dacc;
 }
 
 .file-manager-content.file-manager-content-popup .item{
@@ -2906,4 +2906,22 @@
 
 .card-header {
 	padding: 1.5rem 1.25rem 0.75rem;
+}
+
+.wrap-content.container.tab-list {
+	width:100%;
+	max-width: 100%;
+}
+
+.content-page .content .content-1 {
+	margin-top: 0px;
+}
+
+.font-large-2 {
+	font-size: 3rem!important;
+}
+
+table.dataTable.collapsed th .pure-checkbox {
+    position: relative;
+    left: 25px;
 }

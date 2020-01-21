@@ -140,7 +140,7 @@
 
                     <div class="card-title">
 
-                        <i class="fa ft-edit" aria-hidden="true"></i> <?=lang('new_post')?>
+                        <i class="far fa-edit" aria-hidden="true"></i> <?=lang('new_post')?>
 
                     </div>
 

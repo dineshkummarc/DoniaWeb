@@ -1,8 +1,20 @@
-<div class="row pn-mode pn-mode-users">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title float-left"><?=lang("User manager")?></h4>
+            <ol class="breadcrumb float-right">
+                <li class="breadcrumb-item"><a href="#"><?=lang("User manager")?></a></li>
+            </ol>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+
+<div class="row pn-mode pn-mode-users m-t--30">
 
     <a href="javascript:void(0);" class="pn-toggle-open"><i class="ft-user" aria-hidden="true"></i></a>
 
-    <div class="pn-sidebar pn-scroll">
+    <div class="pn-sidebar pn-scroll card">
 
         <div class="pn-box-sidebar">
 
@@ -30,7 +42,7 @@
 
                 <a href="<?=cn("users")?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("users")?>');">
 
-                    <div class="icon"><i class="ft-user"></i></div>
+                    <div class="icon"><i class="fas fa-users"></i></div>
 
                     <div class="content content-1">
 
@@ -46,7 +58,7 @@
 
                 <a href="<?=cn("users/index/statistics")?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("users/index/statistics")?>');">
 
-                    <div class="icon"><i class="ft-bar-chart-2"></i></div>
+                    <div class="icon"><i class="fas fa-chart-bar"></i></div>
 
                     <div class="content content-1">
 
@@ -78,7 +90,7 @@
 
     </div>
 
-    <div class="pn-content pn-scroll">
+    <div class="pn-content pn-scroll card">
 
         <div class="pn-box-content">
 

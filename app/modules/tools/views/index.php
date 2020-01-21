@@ -1,8 +1,20 @@
 <div class="wrap-content container tab-list">
 
     <div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <h4 class="page-title float-left"><?=lang("tools")?></h4>
+                <ol class="breadcrumb float-right">
+                    <li class="breadcrumb-item"><a href="#"><?=lang("tools")?></a></li>
+                </ol>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 
-        <div class="col-md-8 col-md-offset-2">
+    <div class="row m-t--30">
+
+        <div class="col-md-10 col-md-offset-2">
 
             <div class="card watermark-box">
 

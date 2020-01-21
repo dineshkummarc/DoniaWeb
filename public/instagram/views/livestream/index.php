@@ -160,7 +160,7 @@ if(!empty($post)){
 
             <div class="head-title">
 
-                <i class="fa ft-edit" aria-hidden="true"></i> <?=lang("Create new")?>
+                <i class="far fa-edit" aria-hidden="true"></i> <?=lang("Create new")?>
 
             </div>
 
