@@ -377,17 +377,17 @@ function Main(){
 
     this.optionPanelMode = function(){
         if($('.pn-mode').length > 0){
-            _h = $(window).height() - 56 + 20;
-            $('.pn-sidebar').height(_h);
-            $('.pn-content').height(_h);
-            $('.pn-mode').height(_h);
+            // _h = $(window).height() - 56 + 80;
+            // $('.pn-sidebar').height(_h);
+            // $('.pn-content').height(_h);
+            // $('.pn-mode').height(_h);
 
-            $(window).resize(function(){
-                _h = $(window).height() - 56 + 20;
-                $('.pn-sidebar').height(_h);
-                $('.pn-content').height(_h);
-                $('.pn-mode').height(_h);
-            });
+            // $(window).resize(function(){
+            //     _h = $(window).height() - 56 + 80;
+            //     $('.pn-sidebar').height(_h);
+            //     $('.pn-content').height(_h);
+            //     $('.pn-mode').height(_h);
+            // });
 
             $('.pn-scroll').niceScroll({cursorcolor:"#ddd", cursorwidth:"10px", horizrailenabled:false});
 

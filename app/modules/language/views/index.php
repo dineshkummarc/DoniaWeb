@@ -4,9 +4,20 @@ $module_name = "language";
 
 ?>
 
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title float-left"><?=lang('Language')?></h4>
+            <ol class="breadcrumb float-right">
+                <li class="breadcrumb-item"><a href="#"><?=lang('Language')?></a></li>
+            </ol>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
 
 
-<div class="wrap-content <?=$module_name?>-app row app-mod">
+<div class="wrap-content <?=$module_name?>-app row app-mod m-t--30">
 
     <ul class="am-mobile-menu">
 

@@ -98,7 +98,7 @@
 
                 <a href="<?=cn("settings/general/proxies")?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("settings/general/proxies")?>');">
 
-                    <div class="icon"><i class="ft-shield"></i></div>
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
 
                     <div class="content content-1">
 

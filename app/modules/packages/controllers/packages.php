@@ -9,7 +9,7 @@ class packages extends MX_Controller {
 		parent::__construct();
 		$this->load->model(get_class($this).'_model', 'model');
 		$this->module_name = lang("packages");
-		$this->module_icon = "fa ft-package";
+		$this->module_icon = "fas fa-archive";
 	}
 
 	public function index($page = "empty", $ids = ""){

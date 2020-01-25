@@ -224,7 +224,7 @@ if(!empty($post)){
 
                         <a href="javascript:void(0);" class="col-md-4 col-sm-4 col-xs-4 item" data-type="text" data-type-image="single">
 
-                            <i class="ft-file-text"></i> <?=lang('text')?>
+                            <i class="far fa-sticky-note"></i> <?=lang('text')?>
 
                             <input type="radio" name="type" value="text" class="hide">
 

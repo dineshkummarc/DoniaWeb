@@ -62,7 +62,7 @@
 
                 <a href="<?=cn("profile/index/package")?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("profile/index/package")?>');">
 
-                    <div class="icon"><i class="ft-package"></i></div>
+                    <div class="icon"><i class="fas fa-archive"></i></div>
 
                     <div class="content content-1">
 

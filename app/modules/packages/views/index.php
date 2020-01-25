@@ -1,8 +1,20 @@
-<div class="row pn-mode pn-mode-users">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title float-left"><?=lang("Package manager")?></h4>
+            <ol class="breadcrumb float-right">
+                <li class="breadcrumb-item"><a href="#"><?=lang("Package manager")?></a></li>
+            </ol>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
 
-    <a href="javascript:void(0);" class="pn-toggle-open"><i class="ft-package" aria-hidden="true"></i></a>
+<div class="row pn-mode pn-mode-users m-t--30">
 
-    <div class="pn-sidebar pn-scroll">
+    <a href="javascript:void(0);" class="pn-toggle-open"><i class="fas fa-archive" aria-hidden="true"></i></a>
+
+    <div class="pn-sidebar pn-scroll card">
 
         <div class="pn-box-sidebar">
 
@@ -36,7 +48,7 @@
 
                 <a href="<?=cn("packages/index/edit/".$package->ids)?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("packages/index/edit/".$package->ids)?>');">
 
-                    <div class="icon bg-black white"><i class="ft-package"></i></div>
+                    <div class="icon bg-black white"><i class="fas fa-archive"></i></div>
 
                     <div class="content content-2">
 
@@ -82,7 +94,7 @@
 
     </div>
 
-    <div class="pn-content pn-scroll">
+    <div class="pn-content pn-scroll card">
 
         <form action="<?=cn("packages/ajax_update")?>" data-redirect="<?=cn($module)?>" class="actionForm" method="POST">
 

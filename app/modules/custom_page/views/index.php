@@ -1,8 +1,20 @@
-<div class="row pn-mode pn-mode-users">
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title float-left"><?=lang("custom_page")?></h4>
+            <ol class="breadcrumb float-right">
+                <li class="breadcrumb-item"><a href="#"><?=lang("custom_page")?></a></li>
+            </ol>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
 
-    <a href="javascript:void(0);" class="pn-toggle-open"><i class="ft-file-text" aria-hidden="true"></i></a>
+<div class="row pn-mode pn-mode-users m-t--30">
 
-    <div class="pn-sidebar pn-scroll">
+    <a href="javascript:void(0);" class="pn-toggle-open"><i class="far fa-sticky-note" aria-hidden="true"></i></a>
+
+    <div class="pn-sidebar pn-scroll card">
 
         <div class="pn-box-sidebar">
 
@@ -36,7 +48,7 @@
 
                 <a href="<?=cn("custom_page/index/edit/".$custom_page->ids)?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("custom_page/index/edit/".$custom_page->ids)?>');">
 
-                    <div class="icon bg-success white"><i class="ft-file-text"></i></div>
+                    <div class="icon bg-success white"><i class="far fa-sticky-note"></i></div>
 
                     <div class="content content-1">
 
@@ -78,7 +90,7 @@
 
     </div>
 
-    <div class="pn-content pn-scroll">
+    <div class="pn-content pn-scroll card">
 
         <form action="<?=cn("custom_page/ajax_update")?>" data-redirect="<?=cn("custom_page")?>" class="actionForm" method="POST">
 

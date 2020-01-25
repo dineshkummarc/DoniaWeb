@@ -134,7 +134,7 @@ $module_name = segment(1);
 
                 <div class="name">
 
-                    <i class="ft-shield" aria-hidden="true"></i> <?=lang("Proxy manager")?>
+                    <i class="fas fa-shield-alt" aria-hidden="true"></i> <?=lang("Proxy manager")?>
 
                 </div>
 

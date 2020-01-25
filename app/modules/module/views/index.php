@@ -1,4 +1,16 @@
-<div class="wrap-content container module">
+<div class="row">
+	<div class="col-12">
+		<div class="page-title-box">
+			<h4 class="page-title float-left"><?=lang('Modules & Plugins')?></h4>
+			<ol class="breadcrumb float-right">
+				<li class="breadcrumb-item"><a href="#"><?=lang('Modules & Plugins')?></a></li>
+			</ol>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap-content container1 module card m-t--10">
 
 	<div class="users app-table">
 

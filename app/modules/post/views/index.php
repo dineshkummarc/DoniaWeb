@@ -168,7 +168,7 @@
 
                                 <li data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Text" class="active">
 
-                                    <a href="#text" class="action-select" data-toggle="tab" data-type="text"><i class="ft-file-text"></i></a>
+                                    <a href="#text" class="action-select" data-toggle="tab" data-type="text"><i class="far fa-sticky-note"></i></a>
 
                                     <input type="radio" class="hide" name="type" value="text" checked="true">
 

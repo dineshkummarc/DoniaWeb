@@ -1,6 +1,17 @@
 <div class="wrap-content">
+	<div class="row">
+        <div class="col-12">
+            <div class="page-title-box">
+                <h4 class="page-title float-left"><?=lang('payment_history')?></h4>
+                <ol class="breadcrumb float-right">
+                    <li class="breadcrumb-item"><a href="#"><?=lang('payment_history')?></a></li>
+                </ol>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
 
-	<div class="users app-table">
+	<div class="users app-table m-t--30">
 
 		  	<div class="card">
 

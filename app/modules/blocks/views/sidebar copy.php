@@ -164,7 +164,7 @@
 
             <a href="<?=cn("packages")?>">
 
-                <i class="ft-package" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('packages')?>"></i>
+                <i class="fas fa-archive" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('packages')?>"></i>
 
                 <span class="name"> <?=lang('packages')?></span>
 
@@ -188,7 +188,7 @@
 
             <a href="<?=cn("proxies")?>">
 
-                <i class="ft-shield" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('proxies')?>"></i>
+                <i class="fas fa-shield-alt" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('proxies')?>"></i>
 
                 <span class="name"> <?=lang('proxies')?></span>
 
@@ -224,7 +224,7 @@
 
             <a href="<?=cn("custom_page")?>">
 
-                <i class="ft-file-text" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('custom_page')?>"></i>
+                <i class="far fa-sticky-note" aria-hidden="true" data-toggle="tooltip" data-placement="right" title="<?=lang('custom_page')?>"></i>
 
                 <span class="name"> <?=lang('custom_page')?></span>
 

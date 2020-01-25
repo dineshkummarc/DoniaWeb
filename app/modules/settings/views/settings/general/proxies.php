@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-12">
-    	<h3 class="head-title"><i class="ft-shield"></i> <?=lang('proxies')?></h3>
+    	<h3 class="head-title"><i class="fas fa-shield-alt"></i> <?=lang('proxies')?></h3>
 
         <div class="form-group">
             <span class="text"> <?=lang('users_can_add_proxies')?></span> <br/>

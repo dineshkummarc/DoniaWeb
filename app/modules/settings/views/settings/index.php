@@ -52,7 +52,7 @@
 
             <div class="item item-2 border <?=segment(3)=="proxies"?"active":""?>">
                 <a href="<?=cn("settings/general/proxies")?>" data-content="pn-ajax-content" data-result="html" class="actionItem" onclick="history.pushState(null, '', '<?=cn("settings/general/proxies")?>');">
-                    <div class="icon"><i class="ft-shield"></i></div>
+                    <div class="icon"><i class="fas fa-shield-alt"></i></div>
                     <div class="content content-1">
                         <div class="title"><?=lang('proxies')?></div>
                     </div>

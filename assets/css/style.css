@@ -2390,7 +2390,8 @@
 /*PANEL MODE*/
 .pn-mode {
     height: calc(100% - 56px);
-    overflow: hidden;
+	overflow: hidden;
+	min-height: 500px;
 }
     
 .pn-mode .pn-sidebar{
@@ -2535,7 +2536,8 @@
 }
 
 .pn-mode .pn-sidebar .item .option .dropdown-toggle{
-    padding: 0px;
+	padding: 0px 4px 0px 0px;
+    margin: 0px 10px;
     border: none;
     font-size: 21px;
     color: #a8a7ad;
@@ -2917,6 +2919,10 @@
 	margin-top: 0px;
 }
 
+.content-page .content .content-2 {
+	margin-top: 0px;
+}
+
 .font-large-2 {
 	font-size: 3rem!important;
 }
@@ -2924,4 +2930,40 @@
 table.dataTable.collapsed th .pure-checkbox {
     position: relative;
     left: 25px;
+}
+
+.nav-tabs .nav-item .nav-link{ 
+
+    border-left: 1px solid #f0f0f0;
+
+    border-right: 1px solid #f0f0f0;
+
+    border-bottom: 1px solid #f0f0f0;
+
+    border-top: 1px solid #f0f0f0;
+
+}
+
+
+
+.nav-tabs .nav-item.active .nav-link,
+
+.nav-tabs .nav-item.active .nav-link:hover,
+
+.nav-tabs .nav-item.active .nav-link:focus{
+
+    border-left: 1px solid #f0f0f0;
+
+    border-right: 1px solid #f0f0f0;
+
+    border-bottom: 1px solid #ffffffff;
+
+	border-top: 1px solid #f0f0f0;
+	
+	background-color: #ffffff;
+
+}
+
+.wrap-content.container1.module.card {
+	padding: 20px 20px;
 }
